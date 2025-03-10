@@ -29,3 +29,10 @@ func Multiplicador(numero int, conteo int) int {
 	coeficiente = numero * conteo
 	return coeficiente
 }
+
+func Sumador(numero int, conteo int) int {
+	fmt.Println("Vamos por el numero", conteo, "al que le vamos a sumar", numero)
+	coeficiente := conteo
+	coeficiente = numero + conteo
+	return coeficiente
+}
