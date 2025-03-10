@@ -22,3 +22,5 @@ func Divisible(numero int, divisor int) string {
 	}
 
 }
+
+// Entorno
