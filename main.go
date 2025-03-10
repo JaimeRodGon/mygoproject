@@ -11,6 +11,7 @@ import (
 //4- dada una lista desordenada ordena de menor a mayor.
 //5- Repetir los ejercicios pero con los datos pedidos por pantalla en vez de declarados en la funcion.
 //6- Ejercicio 1 pero devolver error si la multiplicacion es mayor de X. Enfasis en ERROR.
+//7- ..
 
 func main() {
 
