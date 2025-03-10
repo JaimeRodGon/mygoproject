@@ -16,9 +16,9 @@ func Par(numero int) string {
 func Divisible(numero int, divisor int) string {
 	fmt.Println("El numero a comprobar ", numero)
 	if numero%divisor == 0 {
-		return fmt.Sprint("es divisible entre", divisor)
+		return fmt.Sprint("es divisible entre" , divisor)
 	} else {
-		return fmt.Sprint("no es divisible entre", divisor)
+		return fmt.Sprint("no es divisible entre ", divisor)
 	}
 
 }
