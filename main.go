@@ -3,16 +3,14 @@ package main
 import (
 	"MyProjects/ProjectOne/maths"
 	"fmt"
-
 )
 
 //1- Dada una lista de 5 valores, devuelve el resultado de la multiplicacion de toda la lista.
-//2- Ejercicio 1 pero en sumatorio
-//3- Dada una lista quiero saber el valor mas alto
-//4- dada una lista desordenada ordena de menor a mayor
+//2- Ejercicio 1 pero en sumatorio.
+//3- Dada una lista quiero saber el valor mas alto.
+//4- dada una lista desordenada ordena de menor a mayor.
 //5- Repetir los ejercicios pero con los datos pedidos por pantalla en vez de declarados en la funcion.
 //6- Ejercicio 1 pero devolver error si la multiplicacion es mayor de X. Enfasis en ERROR.
-
 
 func main() {
 
