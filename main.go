@@ -14,6 +14,18 @@ import (
 //7- ..
 
 func main() {
+	lista := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	coeficiente := 1
+	fmt.Println(lista)
+
+	for _, i := range lista {
+		total := maths.Multiplicador(i, coeficiente)
+		fmt.Println("El resultado es", total)
+		coeficiente = total
+	}
+}
+
+/*func main() {
 
 	lista := []int{2, 5, 6, 8, 9}
 	fmt.Println(lista)
@@ -23,7 +35,11 @@ func main() {
 		fmt.Println("El resultado es", resultado)
 	}
 
-	//resultado := maths.Par(8)
-	//fmt.Println("El resultado es", resultado)
 
-}
+
+}*/
+
+/*func main (){
+	resultado := maths.Par(8)
+	fmt.Println("El resultado es", resultado)
+}*/

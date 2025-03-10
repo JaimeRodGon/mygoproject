@@ -22,3 +22,10 @@ func Divisible(numero int, divisor int) string {
 	}
 
 }
+
+func Multiplicador(numero int, conteo int) int {
+	fmt.Println("Vamos por el numero", conteo, "al que le vamos a multiplicar", numero)
+	coeficiente := conteo
+	coeficiente = numero * conteo
+	return coeficiente
+}
